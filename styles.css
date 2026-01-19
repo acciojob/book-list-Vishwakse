@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+th{
+	border:1px solid black;
+	min-width:100px;
+}
+td{
+	border:1px solid red;
+	min-width:100px;
+}
+table{
+border:1px solid black;}
