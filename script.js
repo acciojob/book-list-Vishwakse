@@ -8,7 +8,7 @@ form.addEventListener("submit",(e)=>{
 	const isbn=e.target.isbn.value
 	
 const tr=document.createElement("tr");
-	tr.innerHTML=`<td>${title}</td><td>${author}</td><td>${isbn}<button class="delete">X</button></td>`
+	tr.innerHTML=`<td>${title}</td><td>${author}</td><td>${isbn}</td><td><button class="delete">X</button></td>`
 	const tbody=document.querySelector("#book-list");
 	tbody.appendChild(tr);
 	e.target.reset();
